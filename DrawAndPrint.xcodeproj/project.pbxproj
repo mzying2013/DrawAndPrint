@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74212F3CCD0FB8F81B3621F7 /* Pods_DrawAndPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8FF8F2ED282423B7F01588 /* Pods_DrawAndPrint.framework */; };
 		A97BF71F2A470FE900BA491F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF71E2A470FE900BA491F /* AppDelegate.swift */; };
 		A97BF7212A470FE900BA491F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF7202A470FE900BA491F /* SceneDelegate.swift */; };
 		A97BF7232A470FE900BA491F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF7222A470FE900BA491F /* ViewController.swift */; };
 		A97BF7262A470FE900BA491F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97BF7242A470FE900BA491F /* Main.storyboard */; };
 		A97BF7282A470FEA00BA491F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97BF7272A470FEA00BA491F /* Assets.xcassets */; };
 		A97BF72B2A470FEA00BA491F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97BF7292A470FEA00BA491F /* LaunchScreen.storyboard */; };
+		A97BF7342A47125C00BA491F /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF7322A47125C00BA491F /* BaseController.swift */; };
+		A97BF7352A47125C00BA491F /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF7332A47125C00BA491F /* BaseNavigationController.swift */; };
+		A97BF73A2A4712F000BA491F /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97BF7392A4712EF00BA491F /* ViewLayout.swift */; };
+		A97BF73E2A4715A300BA491F /* Printer in Resources */ = {isa = PBXBuildFile; fileRef = A97BF73D2A4715A300BA491F /* Printer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A8ECD16DA6E5A6567C84B24 /* Pods-DrawAndPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAndPrint.debug.xcconfig"; path = "Target Support Files/Pods-DrawAndPrint/Pods-DrawAndPrint.debug.xcconfig"; sourceTree = "<group>"; };
 		A97BF71B2A470FE900BA491F /* DrawAndPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawAndPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97BF71E2A470FE900BA491F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97BF7202A470FE900BA491F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		A97BF7272A470FEA00BA491F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97BF72A2A470FEA00BA491F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A97BF72C2A470FEA00BA491F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97BF7322A47125C00BA491F /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		A97BF7332A47125C00BA491F /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A97BF7392A4712EF00BA491F /* ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
+		A97BF73D2A4715A300BA491F /* Printer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Printer; sourceTree = "<group>"; };
+		F8DF34C983BDE5BC34D1D881 /* Pods-DrawAndPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAndPrint.release.xcconfig"; path = "Target Support Files/Pods-DrawAndPrint/Pods-DrawAndPrint.release.xcconfig"; sourceTree = "<group>"; };
+		FF8FF8F2ED282423B7F01588 /* Pods_DrawAndPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawAndPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74212F3CCD0FB8F81B3621F7 /* Pods_DrawAndPrint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2095802DD50D8B1CF9277A25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A8ECD16DA6E5A6567C84B24 /* Pods-DrawAndPrint.debug.xcconfig */,
+				F8DF34C983BDE5BC34D1D881 /* Pods-DrawAndPrint.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66626016886F98C3025B0CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8FF8F2ED282423B7F01588 /* Pods_DrawAndPrint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A97BF7122A470FE900BA491F = {
 			isa = PBXGroup;
 			children = (
 				A97BF71D2A470FE900BA491F /* DrawAndPrint */,
 				A97BF71C2A470FE900BA491F /* Products */,
+				2095802DD50D8B1CF9277A25 /* Pods */,
+				66626016886F98C3025B0CFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +88,8 @@
 		A97BF71D2A470FE900BA491F /* DrawAndPrint */ = {
 			isa = PBXGroup;
 			children = (
+				A97BF73D2A4715A300BA491F /* Printer */,
+				A97BF7382A4712D500BA491F /* Base */,
 				A97BF71E2A470FE900BA491F /* AppDelegate.swift */,
 				A97BF7202A470FE900BA491F /* SceneDelegate.swift */,
 				A97BF7222A470FE900BA491F /* ViewController.swift */,
@@ -67,6 +101,16 @@
 			path = DrawAndPrint;
 			sourceTree = "<group>";
 		};
+		A97BF7382A4712D500BA491F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A97BF7392A4712EF00BA491F /* ViewLayout.swift */,
+				A97BF7322A47125C00BA491F /* BaseController.swift */,
+				A97BF7332A47125C00BA491F /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A97BF72F2A470FEA00BA491F /* Build configuration list for PBXNativeTarget "DrawAndPrint" */;
 			buildPhases = (
+				99BFDB455CC8D82C32CD6F89 /* [CP] Check Pods Manifest.lock */,
 				A97BF7172A470FE900BA491F /* Sources */,
 				A97BF7182A470FE900BA491F /* Frameworks */,
 				A97BF7192A470FE900BA491F /* Resources */,
+				545BF2FE93A80D8F484F0C4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +174,53 @@
 				A97BF72B2A470FEA00BA491F /* LaunchScreen.storyboard in Resources */,
 				A97BF7282A470FEA00BA491F /* Assets.xcassets in Resources */,
 				A97BF7262A470FE900BA491F /* Main.storyboard in Resources */,
+				A97BF73E2A4715A300BA491F /* Printer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		545BF2FE93A80D8F484F0C4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawAndPrint/Pods-DrawAndPrint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawAndPrint/Pods-DrawAndPrint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawAndPrint/Pods-DrawAndPrint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BFDB455CC8D82C32CD6F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawAndPrint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A97BF7172A470FE900BA491F /* Sources */ = {
@@ -139,7 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97BF7232A470FE900BA491F /* ViewController.swift in Sources */,
+				A97BF73A2A4712F000BA491F /* ViewLayout.swift in Sources */,
 				A97BF71F2A470FE900BA491F /* AppDelegate.swift in Sources */,
+				A97BF7342A47125C00BA491F /* BaseController.swift in Sources */,
+				A97BF7352A47125C00BA491F /* BaseNavigationController.swift in Sources */,
 				A97BF7212A470FE900BA491F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,18 +374,22 @@
 		};
 		A97BF7302A470FEA00BA491F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8ECD16DA6E5A6567C84B24 /* Pods-DrawAndPrint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FCZNQS33F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawAndPrint/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,18 +405,22 @@
 		};
 		A97BF7312A470FEA00BA491F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DF34C983BDE5BC34D1D881 /* Pods-DrawAndPrint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FCZNQS33F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawAndPrint/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

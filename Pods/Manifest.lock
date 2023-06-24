@@ -1,0 +1,30 @@
+PODS:
+  - PromiseKit/CorePromise (8.0.0)
+  - SnapKit (5.6.0)
+  - Then (3.0.0)
+  - UberSignature (1.0.3):
+    - UberSignature/Swift (= 1.0.3)
+  - UberSignature/Swift (1.0.3)
+
+DEPENDENCIES:
+  - PromiseKit/CorePromise
+  - SnapKit
+  - Then
+  - UberSignature
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - SnapKit
+    - Then
+    - UberSignature
+
+SPEC CHECKSUMS:
+  PromiseKit: 7039707ba8764b6ce98501debce2489561b038a5
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  UberSignature: 93a5860a83211569d6d25b586e0fcad8aa163144
+
+PODFILE CHECKSUM: e6d6ec80db6e916fa612753ae099f4909bdf1b29
+
+COCOAPODS: 1.12.1
